@@ -1,0 +1,10 @@
+[flake8]
+ignore = F401
+exclude =
+  # Standard linting exemptions.
+  venv,
+  __pycache__,
+  .git,
+  *.pyc
+max-line-length = 160
+max-complexity = 10
